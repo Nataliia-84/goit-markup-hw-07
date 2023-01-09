@@ -1,0 +1,117 @@
+.footer {
+    background-color: var(--color-bg-hero);
+}
+
+.footer__conteiner {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address__conteiner {
+    margin: 20px 0 0;
+}
+
+.adress {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.footer__list {
+    margin: 0;
+    padding: 0 0;
+    list-style-type: none;
+
+}
+
+.footer__mail,
+.footer__tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-text-foter);
+    text-decoration: none;
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white-color);
+    margin: 0 0 20px;
+}
+
+.socials__link--activ {
+
+    background-color: var(--color-bg-link);
+    fill: var(--white-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials__link--activ:hover {
+    background-color: var(--accent-color);
+}
+
+.subsribe__title {
+    margin: 0 0 28px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.subsribe__form {
+    display: flex;
+    gap: 12px;
+}
+
+.subsribe__input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    outline: none;
+    padding: 15px 16px;
+
+
+}
+
+.subsribe__form::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: var(--color-input);
+
+}
+
+.subsribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.subsribe__icon {
+    fill: var(--white-color);
+}

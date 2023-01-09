@@ -1,0 +1,17 @@
+body {
+    font-family: Roboto, sans-serif;
+
+    color: var(--primary-text-color);
+    background-color: var(--white-color);
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

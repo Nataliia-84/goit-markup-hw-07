@@ -1,0 +1,115 @@
+.form-field__label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+
+}
+
+.form-field__input {
+    height: 40px;
+    width: 100%;
+    padding-left: 42px;
+    padding-right: 12px;
+    border: 1px solid var(--color-border-input);
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-field__input:focus {
+    border-color: var(--accent-color);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field__input:focus+.form-field__icon {
+    fill: var(--accent-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field__control {
+    position: relative;
+
+}
+
+.form-field__icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+
+}
+
+.modal__form-coments {
+    margin-bottom: 20px;
+}
+
+.form-field__textarea {
+    height: 120px;
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid var(--color-border-input);
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+
+}
+
+.form-field__textarea:focus {
+    border-color: var(--accent-color);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field__textarea::placeholder {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: var(--color-textarea);
+}
+
+.checkbox {
+    margin-bottom: 30px;
+}
+
+.checkbox__link {
+    color: var(--accent-color);
+}
+
+.check__input {
+    position: absolute;
+    appearance: none;
+
+}
+
+.check__box {
+
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+    fill: var(--white-color);
+
+
+}
+
+.check__input:checked+.check__box {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    background-origin: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.terms__checkbox {
+    display: inline-block;
+
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}

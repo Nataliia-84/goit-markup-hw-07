@@ -1,0 +1,880 @@
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* logo */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+/* .header{ */
+/*      */
+    /* border-bottom: 1px solid var(--color-border); */
+/* } */
+/*  */
+/* .header__conteiner { */
+    /* height: 79px; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* display: flex; */
+    /* width: 1200px; */
+    /* padding: 32px 15px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+/* } */
+/*  */
+/* .header__nav { */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* flex-grow: 1; */
+    /* display: flex; */
+/* } */
+/* .header__contact { */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* flex-grow: 1; */
+/* } */
+/* .menu { */
+    /* gap: 50px; */
+    /* display: flex; */
+    /* margin: 0 0; */
+    /* padding: 0 0; */
+    /* font-weight: 500; */
+    /* font-size: 14px; */
+    /* line-height: 1.14; */
+    /* letter-spacing: 0.02em; */
+    /* list-style-type: none; */
+/*  */
+/* } */
+/*  */
+/* .menu__link { */
+    /* position: relative; */
+    /* padding-top: 32px; */
+    /* padding-bottom: 32px; */
+    /* color: var(--primary-text-second-color); */
+    /* text-decoration: none; */
+    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+/*  */
+/* } */
+/*  */
+/* .menu__link:hover, */
+/* .menu__link:focus { */
+    /* color: var(--accent-color) */
+/* } */
+/* .header__link--current { */
+    /* color: var(--accent-color); */
+/* } */
+/*  */
+/* .header__link--current::after { */
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* content: ''; */
+    /* width: 100%; */
+    /* height: 4px; */
+    /* background-color: var(--accent-color); */
+    /* border-radius: 2px; */
+/*  */
+/*  */
+/* } */
+/* .menu__item{ */
+    /* text-decoration: none; */
+    /* color: var(--primary-text-color); */
+    /* display: flex; */
+    /* align-items: center; */
+    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+/*      */
+/* } */
+/*  */
+/* .menu__item:hover, */
+/* .menu__item:focus{ */
+    /* color:var(--accent-color) */
+/* } */
+/*  */
+/* .menu__icon{ */
+    /* fill: currentColor; */
+    /* margin-right:10px; */
+/*  */
+/* } */
+/*  */
+/* hero */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* benefits */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* comand */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* clients */
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* стилі для портфоліо */
+
+/* фільтри */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* проекти */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* modal */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
